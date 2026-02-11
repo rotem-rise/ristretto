@@ -75,7 +75,11 @@ func (m *expirationMap[_]) update(key, conflict uint64, oldExpTime, newExpTime t
 	oldBucketNum := storageBucket(oldExpTime)
 	oldBucket, ok := m.buckets[oldBucketNum]
 	if ok {
-		delete(oldBucket, key)
+		if len(oldBucket) > 1 {
+			delete(oldBucket, key)
+		} else {
+			delete(m.buckets, oldBucketNum)
+		}
 	}
 
 	// Items that don't expire don't need to be in the expiration map.
