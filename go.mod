@@ -1,4 +1,4 @@
-module github.com/dgraph-io/ristretto/v2
+module github.com/rotem-rise/ristretto
 
 go 1.24.0
 
@@ -6,6 +6,7 @@ toolchain go1.25.0
 
 require (
 	github.com/cespare/xxhash/v2 v2.3.0
+	github.com/dgraph-io/ristretto/v2 v2.0.0-00010101000000-000000000000
 	github.com/dgryski/go-farm v0.0.0-20240924180020-3414d57e47da
 	github.com/dustin/go-humanize v1.0.1
 	github.com/stretchr/testify v1.11.1
@@ -17,3 +18,5 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/dgraph-io/ristretto/v2 => ../ristretto
