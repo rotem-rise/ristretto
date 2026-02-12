@@ -13,7 +13,7 @@ import (
 	"strings"
 	"unsafe"
 
-	"github.com/rotem-rise/ristretto/z/simd"
+	"github.com/dgraph-io/ristretto/z/simd"
 )
 
 var (

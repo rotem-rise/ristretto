@@ -10,7 +10,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/rotem-rise/ristretto/z"
+	"github.com/dgraph-io/ristretto/z"
 )
 
 const (

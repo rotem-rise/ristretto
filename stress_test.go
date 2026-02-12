@@ -14,7 +14,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/rotem-rise/ristretto/sim"
+	"github.com/dgraph-io/ristretto/sim"
 	"github.com/stretchr/testify/require"
 )
 

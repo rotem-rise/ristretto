@@ -1,4 +1,4 @@
-module github.com/rotem-rise/ristretto
+module github.com/dgraph-io/ristretto
 
 go 1.24.0
 

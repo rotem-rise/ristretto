@@ -18,7 +18,7 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/stretchr/testify/require"
 
-	"github.com/rotem-rise/ristretto/z/simd"
+	"github.com/dgraph-io/ristretto/z/simd"
 )
 
 var tmp int
