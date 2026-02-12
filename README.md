@@ -39,7 +39,7 @@ To start using Ristretto, install Go 1.21 or above. Ristretto needs go modules. 
 run the following command
 
 ```sh
-go get github.com/dgraph-io/ristretto/v2
+go get github.com/rotem-rise/ristretto
 ```
 
 This will retrieve the library.
@@ -61,7 +61,7 @@ package main
 import (
   "fmt"
 
-  "github.com/dgraph-io/ristretto/v2"
+  "github.com/rotem-rise/ristretto"
 )
 
 func main() {

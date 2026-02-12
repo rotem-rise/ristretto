@@ -6,7 +6,7 @@ package main
 import (
 	"log"
 
-	"github.com/dgraph-io/ristretto/v2/z"
+	"github.com/rotem-rise/ristretto/z"
 )
 
 func Calloc(size int) []byte { return z.Calloc(size, "memtest") }
